@@ -37,3 +37,13 @@ body:
         - Infraestructura
         - Otro
       default: 7
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Notas Adicionales (opcional)
+      description: Detalles técnicos, decisiones clave o enlaces útiles.
+      placeholder: |
+        - Considerar lógica de errores del backend.
+        - Código fuente: `src/pages/login.jsx`.
+        - Diseño: Figma -> Login form v2.
