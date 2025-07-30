@@ -1,7 +1,7 @@
-name: Historia de Usuario
-title: "HU - "
-description: Plantilla para registrar una nueva historia de usuario.
-labels: ["user story"]
+name: Tarea
+title: "T - "
+description: Plantilla para registrar una nueva tarea.
+labels: ["task"]
 projects: ["PlayerCodeDev/7"]
 assignees:
   - PlayerCodeDev
@@ -9,10 +9,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Historia de Usuario
-        
-        Añade la siguiente información para crear una historia de usuario, agregando información clara y precisa para su desarrollo.
-  
+        ### Tarea
+
+        Añade y completa la siguiente información de forma clara y precisa para el desarrollo de la tarea.
+
   - type: textarea
     id: task-description
     attributes:
