@@ -10,7 +10,9 @@ body:
     attributes:
       value: |
         ### Historia de Usuario
+        
         Añade la siguiente información para crear una historia de usuario, agregando información clara y precisa para su desarrollo.
+  
   - type: textarea
     id: task-description
     attributes:
@@ -19,3 +21,19 @@ body:
       placeholder: "Implementar validación de formularios de inicio de sesión."
     validations:
       required: true
+
+  - type: dropdown
+    id: technical-area
+    attributes:
+      label: Área Técnica
+      description: Clasifica esta trarea por área de trabajo.
+      options:
+        - Frontend
+        - Backend
+        - Full Stack
+        - Base de Datos
+        - Testing
+        - Documentación
+        - Infraestructura
+        - Otro
+      default: 7
