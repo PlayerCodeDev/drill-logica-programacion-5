@@ -1,0 +1,50 @@
+name: Historia de Usuario
+title: "HU - "
+description: Plantilla para registrar una nueva historia de usuario.
+labels: ["user story"]
+projects: ["PlayerCodeDev/7"]
+assignees:
+  - PlayerCodeDev
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Historia de Usuario
+
+        Añade la siguiente información para crear una historia de usuario, agregando información clara y precisa para su desarrollo.
+
+  - type: textarea
+    id: user-story-description
+    attributes:
+      label: Descripción de la Historia de Usuario
+      description: Usa el formato como [tipo de usuario] quiero [acción o funcionalidad] para [beneficio o razón].
+      placeholder: |
+        como usuario registrado
+        quiero poder iniciar sesión en la aplicación
+        para acceder a mi lista personalizada de películas.
+      validations:
+        required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Criterios de Aceptación
+      description: Lista de condiciones que deben cumplirse para que esta historia se considere completada.
+      placeholder: |
+        - [ ] El usuario puede...
+        - [ ] Se muestra un mensaje de...
+        - [ ] La lógica contempla...
+      validations:
+        required: true
+
+  - type: textarea
+    id: related-tasks
+    attributes:
+      label: Tareas Relacionadas
+      description: Lista de las tareas que se deben desarrollar para completar la historia de usuario.
+      placeholder: |
+        - [ ] #27 Agrear el cifredo de contraseñas
+        - [ ] #86 Realizar las consultas a la base de datos
+        - [ ] #40 Mostrar un mensaje de inicio de sesión
+      validations:
+        required: false
