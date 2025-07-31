@@ -22,3 +22,5 @@ body:
         como usuario registrado
         quiero poder iniciar sesión en la aplicación
         para acceder a mi lista personalizada de películas.
+      validations:
+        required: true
