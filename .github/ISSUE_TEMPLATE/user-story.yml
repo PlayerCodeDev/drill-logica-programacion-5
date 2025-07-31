@@ -17,10 +17,3 @@ body:
     id: user-story-description
     attributes:
       label: Descripción de la Historia de Usuario
-      description: Usa el formato como [tipo de usuario] quiero [acción o funcionalidad] para [beneficio o razón].
-      placeholder: |
-        como usuario registrado
-        quiero poder iniciar sesión en la aplicación
-        para acceder a mi lista personalizada de películas.
-      validations:
-        required: true
