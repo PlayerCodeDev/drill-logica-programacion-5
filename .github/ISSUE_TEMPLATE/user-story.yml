@@ -24,3 +24,27 @@ body:
         para acceder a mi lista personalizada de películas.
     validations:
       required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Criterios de Aceptación
+      description: Lista de condiciones que deben cumplirse para que esta historia se considere completada.
+      placeholder: |
+        - [ ] El usuario puede...
+        - [ ] Se muestra un mensaje de...
+        - [ ] La lógica contempla...
+    validations:
+      required: true
+
+  - type: textarea
+    id: related-tasks
+    attributes:
+      label: Tareas Relacionadas
+      description: Lista de las tareas que se deben desarrollar para completar la historia de usuario.
+      placeholder: |
+        - [ ] #27 Agrear el cifredo de contraseñas
+        - [ ] #86 Realizar las consultas a la base de datos
+        - [ ] #40 Mostrar un mensaje de inicio de sesión
+    validations:
+      required: false
